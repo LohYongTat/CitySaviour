@@ -52,9 +52,13 @@
   </views>
   <instances>
     <instance objName="obj_global" x="0" y="0" name="inst_02FDAD02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="704" name="inst_52E1394D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gasbar" x="32" y="0" name="inst_B1851A68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tempbar" x="64" y="0" name="inst_E70AAF7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_draw_2_1" x="192" y="160" name="inst_2FD2F6DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_draw_2_2" x="192" y="256" name="inst_19CF2B69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_draw_2_3" x="64" y="224" name="inst_C6C34F3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_draw_2_4" x="128" y="352" name="inst_FFD19B2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_draw_2_5" x="64" y="416" name="inst_671C4A5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -52,7 +52,6 @@
   </views>
   <instances>
     <instance objName="obj_global" x="0" y="0" name="inst_64360265" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="704" name="inst_22165816" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gasbar" x="32" y="0" name="inst_8BE8466C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tempbar" x="64" y="0" name="inst_1AC6CDBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

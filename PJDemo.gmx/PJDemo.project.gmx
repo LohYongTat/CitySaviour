@@ -16,11 +16,17 @@
     <sprite>sprites\spr_newgame</sprite>
     <sprite>sprites\spr_logo</sprite>
     <sprite>sprites\spr_pin</sprite>
+    <sprite>sprites\spr_ans_2_3</sprite>
+    <sprite>sprites\spr_ans_2_4</sprite>
+    <sprite>sprites\spr_ans_2_5</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_map1</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\sc_font.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_mainmenu</object>
     <object>objects\obj_easy</object>
@@ -43,6 +49,11 @@
     <object>objects\obj_zone2</object>
     <object>objects\obj_zone3</object>
     <object>objects\obj_zone4</object>
+    <object>objects\obj_draw_2_1</object>
+    <object>objects\object_draw_2_2</object>
+    <object>objects\object_draw_2_3</object>
+    <object>objects\object_draw_2_4</object>
+    <object>objects\object_draw_2_5</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_mainmenu</room>

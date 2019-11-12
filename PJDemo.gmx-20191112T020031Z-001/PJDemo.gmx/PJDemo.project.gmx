@@ -14,15 +14,11 @@
     <sprite>sprites\spr_map3</sprite>
     <sprite>sprites\spr_map2</sprite>
     <sprite>sprites\spr_newgame</sprite>
-    <sprite>sprites\sprite8</sprite>
-    <sprite>sprites\ngiao</sprite>
-    <sprite>sprites\wuzhege</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_map1</background>
+  </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\script1.gml</script>
-  </scripts>
   <objects name="objects">
     <object>objects\obj_mainmenu</object>
     <object>objects\obj_easy</object>
@@ -32,6 +28,13 @@
     <object>objects\obj_map2</object>
     <object>objects\obj_map3</object>
     <object>objects\obj_newgame</object>
+    <objects name="Menu">
+      <objects name="Obj w no sprites">
+        <object>objects\obj_global</object>
+      </objects>
+    </objects>
+    <object>objects\obj_gasbar</object>
+    <object>objects\obj_tempbar</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_mainmenu</room>
@@ -40,7 +43,7 @@
     <room>rooms\room_map1</room>
     <room>rooms\room_map2</room>
     <room>rooms\room_map3</room>
-    <room>rooms\room6test</room>
+    <room>rooms\room_pause</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

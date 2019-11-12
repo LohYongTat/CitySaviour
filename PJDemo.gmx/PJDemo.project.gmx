@@ -26,6 +26,7 @@
     <script>scripts\script5.gml</script>
     <script>scripts\script3.gml</script>
     <script>scripts\script1.gml</script>
+    <script>scripts\script2.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_mainmenu</object>

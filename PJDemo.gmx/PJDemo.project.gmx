@@ -15,6 +15,7 @@
     <sprite>sprites\spr_map2</sprite>
     <sprite>sprites\spr_newgame</sprite>
     <sprite>sprites\spr_logo</sprite>
+    <sprite>sprites\spr_pin</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_map1</background>
@@ -37,6 +38,11 @@
     <object>objects\obj_gasbar</object>
     <object>objects\obj_tempbar</object>
     <object>objects\obj_logo</object>
+    <object>objects\obj_back</object>
+    <object>objects\obj_zone1</object>
+    <object>objects\obj_zone2</object>
+    <object>objects\obj_zone3</object>
+    <object>objects\obj_zone4</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_mainmenu</room>
@@ -46,6 +52,10 @@
     <room>rooms\room_map2</room>
     <room>rooms\room_map3</room>
     <room>rooms\room_pause</room>
+    <room>rooms\room_zone1</room>
+    <room>rooms\room_zone2</room>
+    <room>rooms\room_zone3</room>
+    <room>rooms\room_zone4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

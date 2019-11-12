@@ -14,12 +14,12 @@
     <sprite>sprites\spr_map3</sprite>
     <sprite>sprites\spr_map2</sprite>
     <sprite>sprites\spr_newgame</sprite>
+    <sprite>sprites\spr_logo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_map1</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\obj_mainmenu</object>
     <object>objects\obj_easy</object>
@@ -36,6 +36,7 @@
     </objects>
     <object>objects\obj_gasbar</object>
     <object>objects\obj_tempbar</object>
+    <object>objects\obj_logo</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_mainmenu</room>

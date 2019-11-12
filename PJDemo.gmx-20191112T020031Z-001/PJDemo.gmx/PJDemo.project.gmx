@@ -14,8 +14,8 @@
     <sprite>sprites\spr_map3</sprite>
     <sprite>sprites\spr_map2</sprite>
     <sprite>sprites\spr_newgame</sprite>
-	<sprite>sprites\sprite8</sprite>
-	<sprite>sprites\ngiao</sprite>
+    <sprite>sprites\sprite8</sprite>
+    <sprite>sprites\ngiao</sprite>
     <sprite>sprites\wuzhege</sprite>
   </sprites>
   <backgrounds name="background"/>

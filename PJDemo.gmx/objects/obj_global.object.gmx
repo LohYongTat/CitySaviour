@@ -52,14 +52,14 @@
 {
 global.pause = 1;
 room_persistent = true;
+global.croom = room;
 
-global.room_from = room;
 room_goto(room_pause);
 }
 else 
 {
 global.pause = 0;
-room_goto(global.room_from);
+room_goto(global.croom);
 room_persistent = false;
 }
 </string>

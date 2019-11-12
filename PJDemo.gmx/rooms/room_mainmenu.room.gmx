@@ -53,6 +53,7 @@
   <instances>
     <instance objName="obj_newgame" x="416" y="480" name="inst_3484C11B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_logo" x="416" y="96" name="inst_6B4A3388" locked="0" code="" scaleX="0.422680407762527" scaleY="0.47826087474823" colour="4294967295" rotation="0"/>
+    <instance objName="obj_global" x="0" y="0" name="inst_D3A9ACE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

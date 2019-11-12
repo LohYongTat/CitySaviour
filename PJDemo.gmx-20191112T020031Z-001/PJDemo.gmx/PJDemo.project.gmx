@@ -20,12 +20,8 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-<<<<<<< Updated upstream
-    <script>scripts\scrip9.gml</script>
-    <script>scripts\script1.gml</script>
-=======
     <script>scripts\script4.gml</script>
->>>>>>> Stashed changes
+    <script>scripts\script1.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_mainmenu</object>

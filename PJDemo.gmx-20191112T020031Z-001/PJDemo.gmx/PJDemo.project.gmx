@@ -20,6 +20,7 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\script7.gml</script>
     <script>scripts\script9.gml</script>
   </scripts>
   <objects name="objects">

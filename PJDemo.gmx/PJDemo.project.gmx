@@ -19,6 +19,12 @@
     <sprite>sprites\spr_ans_2_3</sprite>
     <sprite>sprites\spr_ans_2_4</sprite>
     <sprite>sprites\spr_ans_2_5</sprite>
+    <sprite>sprites\spr_health_bar_center</sprite>
+    <sprite>sprites\spr_health_bar_fill</sprite>
+    <sprite>sprites\spr_health_bar_left</sprite>
+    <sprite>sprites\spr_health_bar_right</sprite>
+    <sprite>sprites\spr_raw_heatlh_bar</sprite>
+    <sprite>sprites\sprite0</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_map1</background>
@@ -54,6 +60,9 @@
     <object>objects\object_draw_2_3</object>
     <object>objects\object_draw_2_4</object>
     <object>objects\object_draw_2_5</object>
+    <object>objects\obj_health</object>
+    <object>objects\obj_health_bar</object>
+    <object>objects\obj_help</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_mainmenu</room>
@@ -67,6 +76,7 @@
     <room>rooms\room_zone2</room>
     <room>rooms\room_zone3</room>
     <room>rooms\room_zone4</room>
+    <room>rooms\room0</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

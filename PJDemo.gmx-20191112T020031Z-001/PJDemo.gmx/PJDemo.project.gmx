@@ -21,6 +21,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\script2.gml</script>
+    <script>scripts\script3.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_mainmenu</object>

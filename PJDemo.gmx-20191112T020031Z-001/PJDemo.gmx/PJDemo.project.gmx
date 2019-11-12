@@ -40,6 +40,7 @@
     <room>rooms\room_map1</room>
     <room>rooms\room_map2</room>
     <room>rooms\room_map3</room>
+    <room>rooms\room6test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

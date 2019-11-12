@@ -20,6 +20,9 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\script1.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_mainmenu</object>
     <object>objects\obj_easy</object>

@@ -14,12 +14,9 @@
     <sprite>sprites\spr_map3</sprite>
     <sprite>sprites\spr_map2</sprite>
     <sprite>sprites\spr_newgame</sprite>
-<<<<<<< HEAD
-    <sprite>sprites\ngiao</sprite>
+	<sprite>sprites\sprite8</sprite>
+	<sprite>sprites\ngiao</sprite>
     <sprite>sprites\wuzhege</sprite>
-=======
-    <sprite>sprites\sprite8</sprite>
->>>>>>> 33b18226fada81b827f4af400cf2629b6f645730
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -32,11 +29,6 @@
     <object>objects\obj_map2</object>
     <object>objects\obj_map3</object>
     <object>objects\obj_newgame</object>
-    <objects name="Menu">
-      <objects name="Obj w no sprites">
-        <object>objects\obj_global</object>
-      </objects>
-    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_mainmenu</room>
@@ -45,7 +37,6 @@
     <room>rooms\room_map1</room>
     <room>rooms\room_map2</room>
     <room>rooms\room_map3</room>
-    <room>rooms\room_pause</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

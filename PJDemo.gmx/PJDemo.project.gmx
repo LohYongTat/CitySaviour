@@ -25,6 +25,11 @@
     <sprite>sprites\spr_health_bar_right</sprite>
     <sprite>sprites\spr_raw_heatlh_bar</sprite>
     <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\spr_ans_3_1</sprite>
+    <sprite>sprites\spr_ans_3_2</sprite>
+    <sprite>sprites\spr_ans_3_3</sprite>
+    <sprite>sprites\spr_ans_3_4</sprite>
+    <sprite>sprites\spr_backtomap</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_map1</background>
@@ -63,6 +68,11 @@
     <object>objects\obj_health</object>
     <object>objects\obj_health_bar</object>
     <object>objects\obj_help</object>
+    <object>objects\object_draw_3_1</object>
+    <object>objects\object_draw_3_2</object>
+    <object>objects\object_draw_3_3</object>
+    <object>objects\object_draw_3_4</object>
+    <object>objects\obj_backtomap</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_mainmenu</room>

@@ -53,6 +53,7 @@
   <instances>
     <instance objName="obj_mainmenu" x="32" y="32" name="inst_98EDDB7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_global" x="0" y="0" name="inst_02622F11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_backtomap" x="32" y="96" name="inst_385499EA" locked="0" code="" scaleX="2" scaleY="2.06451606750488" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

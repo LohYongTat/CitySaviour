@@ -48,7 +48,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text((room_width/2) + 20,0,global.manpower);
+            <string>draw_sprite(spr_manpowericon, -1, (room_width/2), 0);
+draw_text((room_width/2) + 20,0,global.manpower);
+
 </string>
           </argument>
         </arguments>

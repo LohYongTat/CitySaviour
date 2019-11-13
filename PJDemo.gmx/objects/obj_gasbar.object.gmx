@@ -58,7 +58,13 @@ else
     global.myGas = global.maxGas
 }
 
+if global.myGas &lt;= 0 
+{
+    global.myGas = 0//global.myGas+delta_time/1000000
+}
+
 showTime =ceil(global.myGas)
+
 </string>
           </argument>
         </arguments>

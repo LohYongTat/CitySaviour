@@ -30,6 +30,11 @@
     <sprite>sprites\spr_ans_3_3</sprite>
     <sprite>sprites\spr_ans_3_4</sprite>
     <sprite>sprites\spr_backtomap</sprite>
+    <sprite>sprites\spr_ques_1</sprite>
+    <sprite>sprites\spr_ans_1_1</sprite>
+    <sprite>sprites\spr_ans_1_2</sprite>
+    <sprite>sprites\spr_ans_1_3</sprite>
+    <sprite>sprites\spr_ans_1_4</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_map1</background>
@@ -73,6 +78,12 @@
     <object>objects\object_draw_3_3</object>
     <object>objects\object_draw_3_4</object>
     <object>objects\obj_backtomap</object>
+    <object>objects\object_draw_1_1</object>
+    <object>objects\obj_ques_1</object>
+    <object>objects\obj_ans_1_1</object>
+    <object>objects\obj_ans_1_4</object>
+    <object>objects\obj_ans_1_3</object>
+    <object>objects\obj_ans_1_2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_mainmenu</room>

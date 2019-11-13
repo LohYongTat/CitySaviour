@@ -27,12 +27,15 @@
       <sprite>sprites\spr_back</sprite>
       <sprite>sprites\spr_backtomap</sprite>
       <sprite>sprites\spr_pin</sprite>
+      <sprite>sprites\spr_pin2</sprite>
+      <sprite>sprites\spr_pin3</sprite>
+      <sprite>sprites\spr_pin4</sprite>
     </sprites>
     <sprites name="Options">
-      <sprite>sprites\spr_ans_2_5</sprite>
       <sprites name="Zone 2">
         <sprite>sprites\spr_ans_2_3</sprite>
         <sprite>sprites\spr_ans_2_4</sprite>
+        <sprite>sprites\spr_ans_2_5</sprite>
       </sprites>
       <sprites name="Zone 3">
         <sprite>sprites\spr_ans_3_1</sprite>
@@ -77,6 +80,7 @@
           <object>objects\obj_ignore</object>
           <objects name="Zone 1">
             <object>objects\obj_zone1</object>
+            <object>objects\obj_z1Q</object>
           </objects>
           <objects name="Zone 2">
             <object>objects\obj_zone2</object>
@@ -93,6 +97,7 @@
           </objects>
           <objects name="Zone 4">
             <object>objects\obj_zone4</object>
+            <object>objects\obj_z4Q</object>
           </objects>
           <objects name="deciOutcome">
             <object>objects\obj_TempUp</object>

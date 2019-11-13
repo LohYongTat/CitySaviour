@@ -32,12 +32,18 @@ global.money -=200000
 global.myGas = global.myGas- 5;
 global.myOxygen = global.myOxygen +10;
 global.myTemp -=1;
+
+
+room_goto(global.map)
+//(room_map1)
+
 room_goto(room_map1)
 }
 else
 {
 show_message("Not enough resources!")
 }
+
 </string>
           </argument>
         </arguments>

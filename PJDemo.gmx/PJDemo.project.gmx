@@ -94,7 +94,6 @@
     </objects>
     <objects name="room_zone3">
       <object>objects\object_draw_3_1</object>
-      <object>objects\object_draw_3_3</object>
       <object>objects\object_draw_3_2</object>
       <object>objects\object_draw_3_4</object>
     </objects>

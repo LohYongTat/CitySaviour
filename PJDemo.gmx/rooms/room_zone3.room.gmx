@@ -56,7 +56,6 @@
     <instance objName="obj_tempbar" x="64" y="0" name="inst_DFBBA9F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_draw_3_1" x="0" y="128" name="inst_D94995B8" locked="0" code="" scaleX="1.23497998714447" scaleY="1.8400000333786" colour="4294967295" rotation="0"/>
     <instance objName="object_draw_3_2" x="160" y="288" name="inst_AA3C7C72" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="object_draw_3_3" x="160" y="384" name="inst_9820E0CA" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="object_draw_3_4" x="160" y="480" name="inst_CDE22F2F" locked="0" code="" scaleX="1.79999995231628" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

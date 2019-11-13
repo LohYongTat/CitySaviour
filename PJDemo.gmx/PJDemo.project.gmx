@@ -22,6 +22,8 @@
     <sprite>sprites\spr_health_bar_center</sprite>
     <sprite>sprites\spr_health_bar_fill</sprite>
     <sprite>sprites\spr_health_bar_left</sprite>
+    <sprite>sprites\ngiao</sprite>
+    <sprite>sprites\wuzhege</sprite>
     <sprite>sprites\spr_health_bar_right</sprite>
     <sprite>sprites\spr_raw_heatlh_bar</sprite>
     <sprite>sprites\sprite0</sprite>

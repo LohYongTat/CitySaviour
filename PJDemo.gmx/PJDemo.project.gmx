@@ -31,6 +31,7 @@
       <sprite>sprites\spr_pin3</sprite>
       <sprite>sprites\spr_pin4</sprite>
       <sprite>sprites\spr_goldicon</sprite>
+      <sprite>sprites\spr_manpowericon</sprite>
     </sprites>
     <sprites name="Options">
       <sprites name="Zone 2">
@@ -54,6 +55,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_map1</background>
+    <background>background\bg_map2</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -79,6 +81,7 @@
       <object>objects\obj_money</object>
       <object>objects\obj_manpower</object>
       <object>objects\obj_goldicon</object>
+      <object>objects\obj_manpowericon</object>
     </objects>
     <objects name="Maps">
       <objects name="Map 1">

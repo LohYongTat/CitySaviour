@@ -25,7 +25,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(room_map1)
+            <string>var money 
+var manpower
+
+money = global.money - 100;
+manpower = global.manpower- 5;
+
+global.manpower = manpower
+global.money = money
+global.myTemp +=0.1;
+
+room_goto(room_map1)
 </string>
           </argument>
         </arguments>

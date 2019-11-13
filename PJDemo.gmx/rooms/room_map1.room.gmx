@@ -58,6 +58,9 @@
     <instance objName="obj_zone2" x="544" y="32" name="inst_1A4C6A12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_zone3" x="544" y="288" name="inst_FCB765ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_zone4" x="96" y="256" name="inst_4EB5974A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_oxygenbar" x="0" y="256" name="inst_C80FC2EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_money" x="256" y="0" name="inst_52AE9A8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_manpower" x="288" y="0" name="inst_2BA94404" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

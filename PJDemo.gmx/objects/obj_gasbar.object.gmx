@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.myGas=0.0 persistent = true
-global.maxGas=40.0 persistent = true
+            <string>global.myGas=50.0 persistent = true
+global.maxGas=100.0 persistent = true
 </string>
           </argument>
         </arguments>
@@ -81,12 +81,13 @@ showTime =ceil(global.myGas)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_color(c_blue)
+            <string>draw_set_color(c_orange)
 var barWidth
 barWidth = 200
-draw_rectangle(0,300,0+(global.myGas/global.maxGas)*barWidth,290,false)
+draw_rectangle((room_width/2),room_height-60,(room_width/2)+(global.myGas/global.maxGas)*barWidth,room_height-50,false)
 draw_set_color(c_black)
-draw_rectangle(0,300,0+barWidth,290,true)
+draw_rectangle((room_width/2),room_height-60,(room_width/2)+barWidth,room_height-50,true)
+draw_text((room_width/2)-130,room_height-63,"Harmful gasses")
 </string>
           </argument>
         </arguments>

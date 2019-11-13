@@ -26,10 +26,6 @@
     <sprite>sprites\wuzhege</sprite>
     <sprite>sprites\spr_health_bar_right</sprite>
     <sprite>sprites\spr_raw_heatlh_bar</sprite>
-    <sprite>sprites\spr_ans_3_1</sprite>
-    <sprite>sprites\spr_ans_3_2</sprite>
-    <sprite>sprites\spr_ans_3_3</sprite>
-    <sprite>sprites\spr_ans_3_4</sprite>
     <sprite>sprites\spr_backtomap</sprite>
     <sprite>sprites\spr_healthbar</sprite>
     <sprite>sprites\spr_healthbarback</sprite>

@@ -44,12 +44,6 @@
     <objects name="no UI">
       <object>objects\obj_global</object>
     </objects>
-
-    <objects name="room_zone3">
-      <object>objects\object_draw_3_1</object>
-      <object>objects\object_draw_3_2</object>
-      <object>objects\object_draw_3_4</object>
-
     <objects name="UI">
       <object>objects\obj_logo</object>
       <object>objects\obj_gasbar</object>
@@ -58,7 +52,6 @@
       <object>objects\obj_back</object>
       <object>objects\obj_money</object>
       <object>objects\obj_manpower</object>
-
     </objects>
     <objects name="Maps">
       <objects name="Map 1">

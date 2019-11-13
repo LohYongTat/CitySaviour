@@ -50,6 +50,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_map1</background>
+    <background>background\bg_map2</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">

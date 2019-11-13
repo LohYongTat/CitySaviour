@@ -83,7 +83,8 @@ global.money = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text((room_width/2) - 70,0, global.money);
+            <string>draw_sprite(spr_moneyicon, -1, (room_width/2) - 90, 0);
+draw_text((room_width/2) - 70,0, global.money);
 </string>
           </argument>
         </arguments>

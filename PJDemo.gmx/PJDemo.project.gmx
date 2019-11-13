@@ -60,7 +60,6 @@
     <background>background\bg_map2</background>
   </backgrounds>
   <paths name="paths"/>
-  <fonts name="fonts"/>
   <objects name="objects">
     <objects name="pregame">
       <object>objects\obj_mainmenu</object>
@@ -96,7 +95,7 @@
             <object>objects\obj_zone1</object>
             <object>objects\obj_z1Q</object>
             <object>objects\obj_AppealAuth</object>
-            <object>objects\obj_planttrees</object>
+            <object>objects\obj_cuttree</object>
             <object>objects\demoFact</object>
           </objects>
           <objects name="Zone 2">

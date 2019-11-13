@@ -32,16 +32,17 @@
       <sprite>sprites\spr_pin4</sprite>
     </sprites>
     <sprites name="Options">
-      <sprite>sprites\spr_ans_2_5</sprite>
       <sprites name="Zone 2">
         <sprite>sprites\spr_ans_2_3</sprite>
         <sprite>sprites\spr_ans_2_4</sprite>
+        <sprite>sprites\spr_ans_2_5</sprite>
       </sprites>
       <sprites name="Zone 3">
         <sprite>sprites\spr_ans_3_1</sprite>
         <sprite>sprites\spr_ans_3_2</sprite>
         <sprite>sprites\spr_ans_3_3</sprite>
         <sprite>sprites\spr_ans_3_4</sprite>
+        <sprite>sprites\spr_ans_3_5</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -79,10 +80,12 @@
           <object>objects\obj_ignore</object>
           <objects name="Zone 1">
             <object>objects\obj_zone1</object>
+            <object>objects\obj_z1Q</object>
           </objects>
           <objects name="Zone 2">
             <object>objects\obj_zone2</object>
             <object>objects\obj_devtech</object>
+            <object>objects\obj_takeshower</object>
             <object>objects\object_ansSeaWalls</object>
             <object>objects\obj_zone2Q1</object>
           </objects>
@@ -90,14 +93,15 @@
             <object>objects\obj_zone3</object>
             <object>objects\obj_planttrees</object>
             <object>objects\obj_drinkWater</object>
+            <object>objects\obj_outdooractivities</object>
           </objects>
           <objects name="Zone 4">
             <object>objects\obj_zone4</object>
+            <object>objects\obj_z4Q</object>
           </objects>
           <objects name="deciOutcome">
             <object>objects\obj_TempUp</object>
           </objects>
-          <object>objects\obj_takeshower</object>
         </objects>
       </objects>
     </objects>

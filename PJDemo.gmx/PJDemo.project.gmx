@@ -6,28 +6,56 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_mainmenu</sprite>
-    <sprite>sprites\spr_easy</sprite>
-    <sprite>sprites\spr_medium</sprite>
-    <sprite>sprites\spr_hard</sprite>
-    <sprite>sprites\spr_map1</sprite>
-    <sprite>sprites\spr_map3</sprite>
-    <sprite>sprites\spr_map2</sprite>
-    <sprite>sprites\spr_newgame</sprite>
-    <sprite>sprites\spr_logo</sprite>
-    <sprite>sprites\spr_pin</sprite>
-    <sprite>sprites\spr_ans_2_3</sprite>
-    <sprite>sprites\spr_ans_2_4</sprite>
-    <sprite>sprites\spr_ans_2_5</sprite>
-    <sprite>sprites\spr_ans_3_1</sprite>
-    <sprite>sprites\spr_ans_3_2</sprite>
-    <sprite>sprites\spr_ans_3_3</sprite>
-    <sprite>sprites\spr_ans_3_4</sprite>
-    <sprite>sprites\spr_backtomap</sprite>
-    <sprite>sprites\spr_back</sprite>
+    <sprites name="pregame">
+      <sprite>sprites\spr_mainmenu</sprite>
+      <sprite>sprites\spr_newgame</sprite>
+      <sprites name="difficulty">
+        <sprite>sprites\spr_easy</sprite>
+        <sprite>sprites\spr_medium</sprite>
+        <sprite>sprites\spr_hard</sprite>
+      </sprites>
+      <sprites name="map">
+        <sprite>sprites\spr_map1</sprite>
+        <sprite>sprites\spr_map2</sprite>
+        <sprite>sprites\spr_map3</sprite>
+      </sprites>
+      <sprites name="logo">
+        <sprite>sprites\spr_logo</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="UI">
+      <sprite>sprites\spr_back</sprite>
+      <sprite>sprites\spr_backtomap</sprite>
+      <sprite>sprites\spr_pin</sprite>
+      <sprite>sprites\spr_pin2</sprite>
+      <sprite>sprites\spr_pin3</sprite>
+      <sprite>sprites\spr_pin4</sprite>
+      <sprite>sprites\spr_goldicon</sprite>
+      <sprite>sprites\spr_manpowericon</sprite>
+    </sprites>
+    <sprites name="Options">
+      <sprites name="Zone 2">
+        <sprite>sprites\spr_ans_2_3</sprite>
+        <sprite>sprites\spr_ans_2_4</sprite>
+        <sprite>sprites\spr_ans_2_5</sprite>
+      </sprites>
+      <sprites name="Zone 3">
+        <sprite>sprites\spr_ans_3_1</sprite>
+        <sprite>sprites\spr_ans_3_2</sprite>
+        <sprite>sprites\spr_ans_3_3</sprite>
+        <sprite>sprites\spr_ans_3_4</sprite>
+        <sprite>sprites\spr_ans_3_5</sprite>
+      </sprites>
+      <sprites name="Zone 1">
+        <sprite>sprites\spr_ans_1_1</sprite>
+        <sprite>sprites\spr_ans_1_2</sprite>
+        <sprite>sprites\spr_ans_1_3</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_map1</background>
+    <background>background\bg_map2</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -52,6 +80,8 @@
       <object>objects\obj_back</object>
       <object>objects\obj_money</object>
       <object>objects\obj_manpower</object>
+      <object>objects\obj_goldicon</object>
+      <object>objects\obj_manpowericon</object>
     </objects>
     <objects name="Maps">
       <objects name="Map 1">
@@ -60,25 +90,31 @@
           <object>objects\obj_ignore</object>
           <objects name="Zone 1">
             <object>objects\obj_zone1</object>
-            <object>objects\object_ansSeaWalls</object>
-            <object>objects\obj_devtech</object>
-            <object>objects\obj_zone1Q1</object>
+            <object>objects\obj_z1Q</object>
+            <object>objects\obj_AppealAuth</object>
+            <object>objects\obj_cuttree</object>
+            <object>objects\demoFact</object>
           </objects>
           <objects name="Zone 2">
             <object>objects\obj_zone2</object>
-            <object>objects\obj_planttrees</object>
-            <object>objects\obj_drinkWater</object>
+            <object>objects\obj_devtech</object>
+            <object>objects\obj_takeshower</object>
+            <object>objects\object_ansSeaWalls</object>
+            <object>objects\obj_zone2Q1</object>
           </objects>
           <objects name="Zone 3">
             <object>objects\obj_zone3</object>
+            <object>objects\obj_planttrees</object>
+            <object>objects\obj_drinkWater</object>
+            <object>objects\obj_outdooractivities</object>
           </objects>
           <objects name="Zone 4">
             <object>objects\obj_zone4</object>
+            <object>objects\obj_z4Q</object>
           </objects>
           <objects name="deciOutcome">
             <object>objects\obj_TempUp</object>
           </objects>
-          <object>objects\obj_takeshower</object>
         </objects>
       </objects>
     </objects>

@@ -51,11 +51,12 @@ global.maxOxygen=100.0 persistent = true
             <kind>1</kind>
             <string>if global.myOxygen &lt; global.maxOxygen 
 {
-    global.myOxygen = global.myOxygen+delta_time/1000000
+    global.myOxygen = global.myOxygen-delta_time/1000000
 }
-else
+
+if global.myOxygen &lt;0
 {
-    global.myOxygen = global.maxOxygen
+    global.myOxygen = 0
 }
 
 showTime =ceil(global.maxOxygen)

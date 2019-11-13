@@ -55,6 +55,8 @@
     <instance objName="obj_gasbar" x="32" y="0" name="inst_8BE8466C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tempbar" x="64" y="0" name="inst_1AC6CDBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_oxygenbar" x="96" y="0" name="inst_986CA4E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_back" x="0" y="704" name="inst_D86F903D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_z4Q" x="128" y="224" name="inst_B0209ABE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

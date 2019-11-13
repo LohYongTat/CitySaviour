@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.money - 100000 &gt; 0 &amp;&amp; global.manpower - 49 &gt; 0)
+            <string>if(global.money - 100000 &gt; 0)// &amp;&amp; global.manpower - 49 &gt; 0)
 {
 global.money -= 100000
 global.manpower -= 50

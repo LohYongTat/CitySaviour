@@ -27,7 +27,6 @@
       <sprite>sprites\spr_back</sprite>
       <sprite>sprites\spr_backtomap</sprite>
       <sprite>sprites\spr_pin</sprite>
-      <sprite>sprites\spr_goldicon</sprite>
       <sprite>sprites\spr_manpowericon</sprite>
       <sprite>sprites\spr_moneyicon</sprite>
     </sprites>
@@ -79,9 +78,9 @@
       <object>objects\obj_back</object>
       <object>objects\obj_money</object>
       <object>objects\obj_manpower</object>
-      <object>objects\obj_goldicon</object>
       <object>objects\obj_manpowericon</object>
       <object>objects\obj_moneyicon</object>
+      <object>objects\obj_UIBars</object>
     </objects>
     <objects name="Maps">
       <objects name="Map 1">
@@ -132,6 +131,7 @@
     <room>rooms\room_zone2</room>
     <room>rooms\room_zone3</room>
     <room>rooms\room_zone4</room>
+    <room>rooms\room_gameover</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

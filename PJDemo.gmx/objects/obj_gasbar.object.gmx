@@ -53,47 +53,11 @@ global.maxGas=100.0 persistent = true
 {
     global.myGas = global.myGas+delta_time/1000000
 }
-else
-{
-    global.myGas = global.maxGas
-}
-
-if global.myGas &lt;= 0 
-{
-    global.myGas = 0//global.myGas+delta_time/1000000
-}
-
 showTime =ceil(global.myGas)
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>other</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>draw_set_color(c_orange)
-var barWidth
-barWidth = 200
-draw_rectangle((room_width/2),room_height-60,(room_width/2)+(global.myGas/global.maxGas)*barWidth,room_height-50,false)
-draw_set_color(c_black)
-draw_rectangle((room_width/2),room_height-60,(room_width/2)+barWidth,room_height-50,true)
-draw_text((room_width/2)-130,room_height-63,"Harmful gasses")
+if global.myGas &gt;= global.maxGas
+{
+     room_goto(room_gameover)
+}
 </string>
           </argument>
         </arguments>

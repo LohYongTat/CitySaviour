@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.money - 500000 &gt; 0 &amp;&amp; global.manpower - 74 &gt;0)
+            <string>if(global.money - 500000 &gt; 0)// &amp;&amp; global.manpower - 74 &gt;0)
 {
 global.myGas -= 15
 global.myOxygen += 5

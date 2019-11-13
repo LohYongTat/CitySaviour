@@ -25,18 +25,18 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.manpower - 19 &gt;0)
-{
+            <string>//if(global.manpower - 19 &gt;0)
+//{
 global.myGas += 2
 global.myOxygen -= 2
 global.myTemp += 0.2
 global.manpower -= 20
 room_goto(global.map)
-}
-else
-{
-show_message("Not enough resources!")
-}
+//}
+//else
+//{
+//show_message("Not enough resources!")
+//}
 </string>
           </argument>
         </arguments>

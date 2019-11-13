@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>myTime=0.0
-maxTime=6.0
+            <string>global.myTemp=0.0 persistent = true
+global.maxTemp=40.0 persistent = true
 </string>
           </argument>
         </arguments>
@@ -49,16 +49,16 @@ maxTime=6.0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if myTime &lt; maxTime 
+            <string>if global.myTemp &lt; global.maxTemp 
 {
-    myTime = myTime+delta_time/1000000
+    global.myTemp = global.myTemp+delta_time/1000000
 }
 else
 {
-    myTime = maxTime
+    global.myTemp = global.maxTemp
 }
 
-showTime =ceil(myTime)
+showTime =ceil(global.myTemp)
 </string>
           </argument>
         </arguments>
@@ -84,7 +84,7 @@ showTime =ceil(myTime)
             <string>draw_set_color(c_red)
 var barWidth
 barWidth = 200
-draw_rectangle(0,320,0+(myTime/maxTime)*barWidth,310,false)
+draw_rectangle(0,320,0+(global.myTemp/global.maxTemp)*barWidth,310,false)
 draw_set_color(c_black)
 draw_rectangle(0,320,0+barWidth,310,true)
 </string>

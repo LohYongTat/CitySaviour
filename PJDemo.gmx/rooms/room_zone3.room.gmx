@@ -54,12 +54,11 @@
     <instance objName="obj_global" x="0" y="0" name="inst_B1E49B71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gasbar" x="32" y="0" name="inst_82F55A44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tempbar" x="64" y="0" name="inst_DFBBA9F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_TempUp" x="32" y="128" name="inst_D94995B8" locked="0" code="" scaleX="1.32000005245209" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_drinkWater" x="160" y="288" name="inst_AA3C7C72" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_takeshower" x="160" y="384" name="inst_9820E0CA" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_planttrees" x="160" y="480" name="inst_CDE22F2F" locked="0" code="" scaleX="1.79999995231628" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_TempUp" x="32" y="256" name="inst_D94995B8" locked="0" code="" scaleX="1.32000005245209" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_oxygenbar" x="96" y="0" name="inst_BCCF649B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_planttrees" x="256" y="608" name="inst_5A23CF20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_planttrees" x="384" y="416" name="inst_0615DFF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_drinkWater" x="384" y="480" name="inst_6CC87155" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_back" x="0" y="704" name="inst_55D8AD91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

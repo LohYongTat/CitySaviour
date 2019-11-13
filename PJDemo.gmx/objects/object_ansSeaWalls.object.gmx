@@ -25,19 +25,18 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var money 
-var manpower
-
-money = global.money - 100000;
-manpower = global.manpower- 50;
-
-global.manpower = manpower
-global.money = money
+            <string>if(global.money - 100000 &gt; 0 &amp;&amp; global.manpower - 49 &gt; 0)
+{
+global.money -= 100000
+global.manpower -= 50
 global.myGas = global.myGas- 5;
 global.myOxygen = global.myOxygen - 5;
-
 room_goto(global.map)
-
+}
+else
+{
+show_message("Not enough resources!")
+}
 </string>
           </argument>
         </arguments>

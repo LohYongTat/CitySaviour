@@ -60,17 +60,17 @@
           <object>objects\obj_ignore</object>
           <objects name="Zone 1">
             <object>objects\obj_zone1</object>
-            <object>objects\object_ansSeaWalls</object>
-            <object>objects\obj_devtech</object>
-            <object>objects\obj_zone1Q1</object>
           </objects>
           <objects name="Zone 2">
             <object>objects\obj_zone2</object>
-            <object>objects\obj_planttrees</object>
-            <object>objects\obj_drinkWater</object>
+            <object>objects\obj_devtech</object>
+            <object>objects\object_ansSeaWalls</object>
+            <object>objects\obj_zone2Q1</object>
           </objects>
           <objects name="Zone 3">
             <object>objects\obj_zone3</object>
+            <object>objects\obj_planttrees</object>
+            <object>objects\obj_drinkWater</object>
           </objects>
           <objects name="Zone 4">
             <object>objects\obj_zone4</object>

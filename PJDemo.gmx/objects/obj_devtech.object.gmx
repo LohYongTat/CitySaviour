@@ -25,11 +25,18 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.myGas -= 15
+            <string>if(global.money - 500000 &gt; 0 &amp;&amp; global.manpower - 74 &gt;0)
+{
+global.myGas -= 15
 global.myOxygen += 5
-global.manpower -= 50
-global.money -= 100000
+global.manpower -= 75
+global.money -= 500000
 room_goto(global.map)
+}
+else
+{
+show_message("Not enough resources!")
+}
 </string>
           </argument>
         </arguments>

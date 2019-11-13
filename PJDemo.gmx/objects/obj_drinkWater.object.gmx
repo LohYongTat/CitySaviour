@@ -25,17 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var money 
-var manpower
-
-money = global.money - 100;
-manpower = global.manpower- 5;
-
-global.manpower = manpower
-global.money = money
+            <string>if(global.money -100 &gt;0 &amp;&amp; global.manpower-4 &gt;0)
+{
+global.manpower -= 5
+global.money -= 100
 global.myTemp +=0.1;
-
 room_goto(room_map1)
+}
 </string>
           </argument>
         </arguments>

@@ -51,7 +51,7 @@ global.maxOxygen=100.0 persistent = true
             <kind>1</kind>
             <string>if global.myOxygen &lt; global.maxOxygen 
 {
-    global.myOxygen = global.myOxygen+delta_time/1000000
+    global.myOxygen = global.myOxygen-delta_time/1000000
 }
 else
 {

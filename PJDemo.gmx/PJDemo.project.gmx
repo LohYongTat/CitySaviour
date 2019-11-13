@@ -6,25 +6,41 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_mainmenu</sprite>
-    <sprite>sprites\spr_easy</sprite>
-    <sprite>sprites\spr_medium</sprite>
-    <sprite>sprites\spr_hard</sprite>
-    <sprite>sprites\spr_map1</sprite>
-    <sprite>sprites\spr_map3</sprite>
-    <sprite>sprites\spr_map2</sprite>
-    <sprite>sprites\spr_newgame</sprite>
-    <sprite>sprites\spr_logo</sprite>
-    <sprite>sprites\spr_pin</sprite>
-    <sprite>sprites\spr_ans_2_3</sprite>
-    <sprite>sprites\spr_ans_2_4</sprite>
-    <sprite>sprites\spr_ans_2_5</sprite>
-    <sprite>sprites\spr_ans_3_1</sprite>
-    <sprite>sprites\spr_ans_3_2</sprite>
-    <sprite>sprites\spr_ans_3_3</sprite>
-    <sprite>sprites\spr_ans_3_4</sprite>
-    <sprite>sprites\spr_backtomap</sprite>
-    <sprite>sprites\spr_back</sprite>
+    <sprites name="pregame">
+      <sprite>sprites\spr_mainmenu</sprite>
+      <sprite>sprites\spr_newgame</sprite>
+      <sprites name="difficulty">
+        <sprite>sprites\spr_easy</sprite>
+        <sprite>sprites\spr_medium</sprite>
+        <sprite>sprites\spr_hard</sprite>
+      </sprites>
+      <sprites name="map">
+        <sprite>sprites\spr_map1</sprite>
+        <sprite>sprites\spr_map2</sprite>
+        <sprite>sprites\spr_map3</sprite>
+      </sprites>
+      <sprites name="logo">
+        <sprite>sprites\spr_logo</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="UI">
+      <sprite>sprites\spr_back</sprite>
+      <sprite>sprites\spr_backtomap</sprite>
+      <sprite>sprites\spr_pin</sprite>
+    </sprites>
+    <sprites name="Options">
+      <sprite>sprites\spr_ans_2_5</sprite>
+      <sprites name="Zone 2">
+        <sprite>sprites\spr_ans_2_3</sprite>
+        <sprite>sprites\spr_ans_2_4</sprite>
+      </sprites>
+      <sprites name="Zone 3">
+        <sprite>sprites\spr_ans_3_1</sprite>
+        <sprite>sprites\spr_ans_3_2</sprite>
+        <sprite>sprites\spr_ans_3_3</sprite>
+        <sprite>sprites\spr_ans_3_4</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_map1</background>

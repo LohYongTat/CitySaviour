@@ -45,6 +45,11 @@
         <sprite>sprites\spr_ans_3_4</sprite>
         <sprite>sprites\spr_ans_3_5</sprite>
       </sprites>
+      <sprites name="Zone 1">
+        <sprite>sprites\spr_ans_1_1</sprite>
+        <sprite>sprites\spr_ans_1_2</sprite>
+        <sprite>sprites\spr_ans_1_3</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -83,6 +88,9 @@
           <objects name="Zone 1">
             <object>objects\obj_zone1</object>
             <object>objects\obj_z1Q</object>
+            <object>objects\obj_AppealAuth</object>
+            <object>objects\obj_cuttree</object>
+            <object>objects\demoFact</object>
           </objects>
           <objects name="Zone 2">
             <object>objects\obj_zone2</object>

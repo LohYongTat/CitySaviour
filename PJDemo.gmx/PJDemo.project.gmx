@@ -27,9 +27,6 @@
       <sprite>sprites\spr_back</sprite>
       <sprite>sprites\spr_backtomap</sprite>
       <sprite>sprites\spr_pin</sprite>
-      <sprite>sprites\spr_pin2</sprite>
-      <sprite>sprites\spr_pin3</sprite>
-      <sprite>sprites\spr_pin4</sprite>
       <sprite>sprites\spr_goldicon</sprite>
       <sprite>sprites\spr_manpowericon</sprite>
       <sprite>sprites\spr_moneyicon</sprite>

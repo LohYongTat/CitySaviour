@@ -6,15 +6,18 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_mainmenu</sprite>
-    <sprite>sprites\spr_easy</sprite>
-    <sprite>sprites\spr_medium</sprite>
-    <sprite>sprites\spr_hard</sprite>
-    <sprite>sprites\spr_map1</sprite>
-    <sprite>sprites\spr_map3</sprite>
-    <sprite>sprites\spr_map2</sprite>
-    <sprite>sprites\spr_newgame</sprite>
-    <sprite>sprites\spr_logo</sprite>
+    <sprites name="menu">
+      <sprite>sprites\spr_logo</sprite>
+      <sprite>sprites\spr_mainmenu</sprite>
+      <sprite>sprites\spr_easy</sprite>
+      <sprite>sprites\spr_medium</sprite>
+      <sprite>sprites\spr_hard</sprite>
+      <sprite>sprites\spr_map1</sprite>
+      <sprite>sprites\spr_map2</sprite>
+      <sprite>sprites\spr_map3</sprite>
+      <sprite>sprites\spr_newgame</sprite>
+      <sprite>sprites\spr_backtomap</sprite>
+    </sprites>
     <sprite>sprites\spr_pin</sprite>
     <sprite>sprites\spr_health_bar_center</sprite>
     <sprite>sprites\spr_health_bar_fill</sprite>
@@ -24,7 +27,6 @@
     <sprite>sprites\spr_health_bar_right</sprite>
     <sprite>sprites\spr_raw_heatlh_bar</sprite>
     <sprite>sprites\sprite0</sprite>
-    <sprite>sprites\spr_backtomap</sprite>
     <sprites name="room_zone1">
       <sprite>sprites\spr_ans_2_4</sprite>
       <sprite>sprites\spr_ans_2_3</sprite>
@@ -52,15 +54,15 @@
     <script>scripts\sc_font.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_mainmenu</object>
-    <object>objects\obj_easy</object>
-    <object>objects\obj_medium</object>
-    <object>objects\obj_hard</object>
-    <object>objects\obj_map1</object>
-    <object>objects\obj_map2</object>
-    <object>objects\obj_map3</object>
-    <object>objects\obj_newgame</object>
     <objects name="Menu">
+      <object>objects\obj_mainmenu</object>
+      <object>objects\obj_easy</object>
+      <object>objects\obj_medium</object>
+      <object>objects\obj_hard</object>
+      <object>objects\obj_map1</object>
+      <object>objects\obj_map2</object>
+      <object>objects\obj_map3</object>
+      <object>objects\obj_newgame</object>
       <objects name="Obj w no sprites">
         <object>objects\obj_global</object>
       </objects>

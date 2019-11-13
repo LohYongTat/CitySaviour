@@ -57,6 +57,10 @@ else
 {
 global.money = global.money
 }
+if(global.money &lt;= 0)
+{
+global.money = 0
+}
 </string>
           </argument>
         </arguments>

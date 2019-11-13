@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.manpower = 50.00
+            <string>global.manpower = 50.00 persistent = true
 </string>
           </argument>
         </arguments>

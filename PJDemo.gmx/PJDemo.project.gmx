@@ -81,9 +81,9 @@
     <object>objects\object_draw_1_1</object>
     <object>objects\obj_ques_1</object>
     <object>objects\obj_ans_1_1</object>
-    <object>objects\obj_ans_1_4</object>
-    <object>objects\obj_ans_1_3</object>
     <object>objects\obj_ans_1_2</object>
+    <object>objects\obj_ans_1_3</object>
+    <object>objects\obj_ans_1_4</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_mainmenu</room>

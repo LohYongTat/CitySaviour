@@ -54,11 +54,12 @@
     <instance objName="obj_global" x="0" y="0" name="inst_CDFF579C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tempbar" x="64" y="0" name="inst_F4475FAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gasbar" x="32" y="0" name="inst_C2A14A30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ques_1" x="128" y="64" name="inst_33CC9AB0" locked="0" code="" scaleX="1.24015009403229" scaleY="2.06451606750488" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ans_1_1" x="160" y="128" name="inst_378A262F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ques_1" x="160" y="96" name="inst_33CC9AB0" locked="0" code="" scaleX="1.24015009403229" scaleY="2.06451606750488" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ans_1_1" x="384" y="160" name="inst_378A262F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ans_1_2" x="160" y="192" name="inst_E30725F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ans_1_3" x="160" y="256" name="inst_04912460" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ans_1_4" x="160" y="320" name="inst_7B4C7F86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_draw_1_1" x="160" y="32" name="inst_9F55060F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

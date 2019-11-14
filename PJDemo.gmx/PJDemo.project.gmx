@@ -125,7 +125,9 @@
           </objects>
         </objects>
       </objects>
+      <object>objects\obj_gameovertext</object>
       <object>objects\obj_gameover</object>
+      <object>objects\obj_pausemenutext</object>
     </objects>
   </objects>
   <rooms name="rooms">

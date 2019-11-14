@@ -56,7 +56,7 @@ global.maxTemp=100.0 persistent = true
 }
 else if global.myTemp &gt;= global.maxTemp &amp;&amp; room != room_gameover
 {
-    instance_destroy(obj_tempbar)
+    instance_destroy()
     room_goto(room_gameover)
 }
 

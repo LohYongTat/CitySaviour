@@ -52,14 +52,13 @@ global.maxOxygen=100.0 persistent = true
             <string>if global.myOxygen &lt; global.maxOxygen 
 {
     global.myOxygen = global.myOxygen-delta_time/1000000
+    showTime = ceil(global.maxOxygen)
 }
-
-else if global.myOxygen &lt;0
+if global.myOxygen &lt;= 0 &amp;&amp; room != room_gameover
 {
-        room_goto(room_gameover)
+    room_goto(room_gameover)
 }
 
-showTime =ceil(global.maxOxygen)
 </string>
           </argument>
         </arguments>

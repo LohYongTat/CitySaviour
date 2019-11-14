@@ -52,12 +52,14 @@ global.maxGas=100.0 persistent = true
             <string>if global.myGas &lt; global.maxGas 
 {
     global.myGas = global.myGas+delta_time/1000000
+    showTime = ceil(global.myGas)
 }
-showTime =ceil(global.myGas)
-if global.myGas &gt;= global.maxGas
+if global.myGas &gt;= global.maxGas &amp;&amp; room != room_gameover
 {
      room_goto(room_gameover)
 }
+
+
 </string>
           </argument>
         </arguments>

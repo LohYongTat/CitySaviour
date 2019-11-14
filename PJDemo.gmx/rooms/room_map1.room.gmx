@@ -54,10 +54,10 @@
     <instance objName="obj_tempbar" x="0" y="384" name="inst_224A6F5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gasbar" x="0" y="320" name="inst_76C5EC5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_global" x="0" y="0" name="inst_11C20F21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_zone1" x="488" y="208" name="inst_FED4460C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_zone2" x="920" y="448" name="inst_1A4C6A12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_zone3" x="792" y="208" name="inst_FCB765ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_zone4" x="248" y="360" name="inst_4EB5974A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_zone1" x="488" y="176" name="inst_FED4460C" locked="0" code="" scaleX="1.81818187236786" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_zone2" x="904" y="400" name="inst_1A4C6A12" locked="0" code="" scaleX="1.52380955219269" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_zone3" x="776" y="184" name="inst_FCB765ED" locked="0" code="" scaleX="2.18181824684143" scaleY="2.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_zone4" x="264" y="344" name="inst_4EB5974A" locked="0" code="" scaleX="1.81818187236786" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_oxygenbar" x="0" y="256" name="inst_C80FC2EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_money" x="256" y="0" name="inst_52AE9A8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_manpower" x="288" y="0" name="inst_2BA94404" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

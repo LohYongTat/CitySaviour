@@ -49,6 +49,11 @@
         <sprite>sprites\spr_ans_1_2</sprite>
         <sprite>sprites\spr_ans_1_3</sprite>
       </sprites>
+      <sprites name="Zone 4">
+        <sprite>sprites\spr_ans_4_1</sprite>
+        <sprite>sprites\spr_ans_4_2</sprite>
+        <sprite>sprites\spr_ans_4_3</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -111,6 +116,9 @@
           <objects name="Zone 4">
             <object>objects\obj_zone4</object>
             <object>objects\obj_z4Q</object>
+            <object>objects\obj_takebus</object>
+            <object>objects\obj_electric_car</object>
+            <object>objects\obj_limit_aircon</object>
           </objects>
           <objects name="deciOutcome">
             <object>objects\obj_TempUp</object>

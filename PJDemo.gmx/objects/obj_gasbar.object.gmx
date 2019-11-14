@@ -56,6 +56,7 @@ global.maxGas=100.0 persistent = true
 }
 if global.myGas &gt;= global.maxGas &amp;&amp; room != room_gameover
 {
+    instance_destroy(obj_gasbar)
      room_goto(room_gameover)
 }
 

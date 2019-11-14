@@ -56,6 +56,7 @@ global.maxOxygen=100.0 persistent = true
 }
 if global.myOxygen &lt;= 0 &amp;&amp; room != room_gameover
 {
+    instance_destroy(obj_oxygenbar)
     room_goto(room_gameover)
 }
 

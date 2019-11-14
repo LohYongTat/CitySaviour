@@ -60,7 +60,7 @@
     <instance objName="obj_devtech" x="64" y="512" name="inst_78880049" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_ansSeaWalls" x="224" y="256" name="inst_0CA7CED8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_zone2Q1" x="128" y="224" name="inst_EC7AF549" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_becomeveg" x="320" y="448" name="inst_D4F94FA4" locked="0" code="" scaleX="2.33333325386047" scaleY="2.59999990463257" colour="4294967295" rotation="0"/>
+    <instance objName="obj_becomeveg" x="288" y="384" name="inst_D4F94FA4" locked="0" code="" scaleX="0.859078586101532" scaleY="1.08108103275299" colour="4294967295" rotation="0"/>
     <instance objName="obj_UIBars" x="0" y="32" name="inst_27DECA8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

@@ -52,13 +52,13 @@ global.maxTemp=100.0 persistent = true
             <string>if global.myTemp &lt; global.maxTemp 
 {
     global.myTemp = global.myTemp+delta_time/1000000
+    showTime = ceil(global.myTemp)
 }
-else if global.myTemp &gt;= global.maxTemp
+else if global.myTemp &gt;= global.maxTemp &amp;&amp; room != room_gameover
 {
     room_goto(room_gameover)
 }
 
-showTime =ceil(global.myTemp)
 </string>
           </argument>
         </arguments>

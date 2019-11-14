@@ -54,12 +54,12 @@
     <instance objName="obj_global" x="0" y="0" name="inst_B1E49B71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gasbar" x="32" y="0" name="inst_82F55A44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tempbar" x="64" y="0" name="inst_DFBBA9F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_TempUp" x="32" y="256" name="inst_D94995B8" locked="0" code="" scaleX="1.30750000476837" scaleY="1.9375" colour="4294967295" rotation="0"/>
+    <instance objName="obj_TempUp" x="0" y="256" name="inst_D94995B8" locked="0" code="" scaleX="1.85000002384186" scaleY="1.85000002384186" colour="4294967295" rotation="0"/>
     <instance objName="obj_oxygenbar" x="96" y="0" name="inst_BCCF649B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_planttrees" x="352" y="384" name="inst_0615DFF3" locked="0" code="" scaleX="1.6918238401413" scaleY="1.9099999666214" colour="4294967295" rotation="0"/>
-    <instance objName="obj_drinkWater" x="352" y="480" name="inst_6CC87155" locked="0" code="" scaleX="1.46875" scaleY="1.55999994277954" colour="4294967295" rotation="0"/>
+    <instance objName="obj_planttrees" x="480" y="384" name="inst_0615DFF3" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_drinkWater" x="448" y="480" name="inst_6CC87155" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_back" x="0" y="704" name="inst_55D8AD91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_outdooractivities" x="288" y="576" name="inst_1411018D" locked="0" code="" scaleX="1.39199995994568" scaleY="1.78999996185303" colour="4294967295" rotation="0"/>
+    <instance objName="obj_outdooractivities" x="352" y="608" name="inst_1411018D" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_UIBars" x="0" y="32" name="inst_D7E0FB68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

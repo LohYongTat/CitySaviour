@@ -102,7 +102,6 @@
           <objects name="Zone 2">
             <object>objects\obj_zone2</object>
             <object>objects\obj_devtech</object>
-            <object>objects\obj_takeshower</object>
             <object>objects\object_ansSeaWalls</object>
             <object>objects\obj_zone2Q1</object>
             <object>objects\obj_becomeveg</object>

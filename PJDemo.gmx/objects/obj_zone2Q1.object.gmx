@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(x,y,"The recent increase in global temperature has resulted in the melting of ice caps
-,is affecting the city environment.");
+            <string>draw_text(x,y,"The recent increase in global temperature has resulted in the melting of ice caps,
+ affecting the city environment.");
 </string>
           </argument>
         </arguments>

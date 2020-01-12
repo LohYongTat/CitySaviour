@@ -49,11 +49,11 @@ global.maxOxygen=100.0 persistent = true
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.myOxygen &lt; global.maxOxygen 
+            <string>/*if global.myOxygen &lt; global.maxOxygen 
 {
     global.myOxygen = global.myOxygen-delta_time/1000000
     showTime = ceil(global.maxOxygen)
-}
+}*/
 if global.myOxygen &lt;= 0 &amp;&amp; room != room_gameover
 {
     instance_destroy()
